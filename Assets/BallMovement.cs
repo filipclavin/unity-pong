@@ -9,7 +9,7 @@ public class BallMovement : MonoBehaviour
     [SerializeField] private InputAction resetButton;
     [SerializeField] private float movementSpeed;
     [SerializeField] private List<Goal> goals;
-    [SerializeField] private float padelInfluence;
+    [SerializeField] private float paddleInfluence;
 
     private bool gameHasStarted = false;
     public bool GameHasStarted
@@ -59,7 +59,7 @@ public class BallMovement : MonoBehaviour
         if (collNormal.x != 0 )
         {
             float yContactLocal = collision.transform.InverseTransformPoint(contact.point).y;
-            trajectory = new Vector2(-trajectory.x, trajectory.y + yContactLocal * padelInfluence);
+            trajectory = new Vector2(-trajectory.x, trajectory.y + yContactLocal * paddleInfluence);
             trajectory = movementSpeed * trajectory.normalized;
         }
 

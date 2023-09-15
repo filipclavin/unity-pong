@@ -305,7 +305,7 @@ MonoBehaviour:
   goals:
   - {fileID: 1119113269}
   - {fileID: 1981860464}
-  padelInfluence: 5
+  paddleInfluence: 0
 --- !u!50 &2165009
 Rigidbody2D:
   serializedVersion: 4
@@ -346,7 +346,7 @@ GameObject:
   - component: {fileID: 309589550}
   - component: {fileID: 309589549}
   m_Layer: 0
-  m_Name: Left Padel
+  m_Name: Left Paddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -856,7 +856,7 @@ GameObject:
   - component: {fileID: 1044466751}
   - component: {fileID: 1044466750}
   m_Layer: 0
-  m_Name: Right Padel
+  m_Name: Right Paddle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

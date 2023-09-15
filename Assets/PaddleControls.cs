@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PadelControls : MonoBehaviour
+public class PaddleControls : MonoBehaviour
 {
     [SerializeField] private InputAction direction;
     [SerializeField] private float movementSpeed;
